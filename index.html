@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine&effect=fire"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine&effect=fire-animation"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine&effect=neon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6644687a4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1 class="heading" id="calculator-heading">JavaScript Calculator Project</h1>
+    <br />
+    <div id="container">
+      <div id="calculator" class="calculator-container">
+        <p id="para"></p>
+        <div id="inputcontainer" class="inputcontainer">
+          <div id="inputfieldone" class="inputfieldone"></div>
+          <div id="inputfieldtwo" class="inputfieldtwo"></div>
+          <div id="inputfieldthree" class="inputfieldthree"></div>
+        </div>
+        <div id="resultcontainer" class="hide-result"></div>
+        <div class="button-container">
+          <button id="one" class="style" onclick="buttonOne()">1</button
+          ><button id="two" class="style" onclick="buttonTwo()">2</button>
+          <button id="three" class="style" onclick="buttonThree()">3</button
+          ><button id="four" class="style" onclick="buttonFour()">4</button
+          ><br />
+        </div>
+        <div class="button-container">
+          <button id="five" class="style" onclick="buttonFive()">5</button>
+          <button id="six" class="style" onclick="buttonSix()">6</button>
+          <button id="seven" class="style" onclick="buttonSeven()">7</button>
+          <button id="eight" class="style" onclick="buttonEight()">8</button>
+          <br />
+        </div>
+        <div class="button-container">
+          <button id="nine" class="style" onclick="buttonNine()">9</button>
+          <button id="zero" class="style" onclick="buttonzero()">0</button>
+          <button onclick="point()" id="point" class="style">.</button>
+          <button id="dateButton" class="style" onclick="showDate()">
+            <i class="fa-solid fa-calendar"></i>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button onclick="sum('plus')" id="plus" class="style">+</button>
+          <button onclick="sum('minus')" id="minus" class="style">-</button>
+          <button onclick="sum('divide')" id="divide" class="style">/</button>
+          <button onclick="sum('multiply')" id="mulitply" class="style">
+            *
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button id="remove" class="style">C</button>
+          <button onclick="equal()" id="equals" class="style">=</button>
+
+          <button
+            onclick="toggleButton()"
+            class="style light-darkbutton"
+            style="font-size: 1rem"
+          >
+            <span
+              id="light-dark-button-icon-background"
+              class="light-darkbutton"
+            >
+              🔆 <span style="color: white">/</span> 🌙
+            </span>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button id="button-font-style" class="style font-style-button">
+        FONT STYLE
+          </button>
+        </div>
+        <br />
+      </div>
+
+      <div class="created-elements-div" id="createdElementsDiv"></div>
+      <div class="date-section" id="dateSection"></div>
+    </div>
+
+    <br />
+
+    <div id="dateSection" class="date"></div>
+
+    <!-- ================================================================= -->
+    <script src="settings.js"></script>
+    <script src="functions.js"></script>
+    <script src="sum.js"></script>
+    <script src="equal.js"></script>
+  </body>
+</html>

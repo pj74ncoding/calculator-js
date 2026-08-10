@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+
+</head>
+    
+    <body>
+     
+    
+    <div id="inputfield"></div>
+        <div id="inputfieldtwo"></div>
+        <div id="inputfieldthree"></div>
+        <button onclick="myone()">100</button>
+                <button onclick="mytwo()">20</button>
+             <button onclick="equal()">=</button>
+
+             <button id="zero" onclick="buttonzero()">0</button><button id="one" onclick="buttonOne()">1</button> 
+    <button id="two" onclick="buttonTwo()">2</button> <button id="three" onclick="buttonThree()">3</button> </br>
+    <button id="four" onclick="buttonFour()">4</button> <button id="five" onclick="buttonFive()">5</button> <button id="six" onclick="buttonSix()">6</button> </br>
+    <button id="seven" onclick="buttonSeven()">7</button> <button id="eight" onclick="buttonEight()">8</button> <button id="nine" onclick="buttonNine()">9</button>
+     <button onclick="sum('plus')" id="plus">+</button>
+        <button onclick="sum('minus')" id="minus">-</button>
+        <button onclick="sum('divide')" id="divide">/</button>
+        <button onclick="sum('multiply')" id="mulitply">*</button>
+ <script>    
+
+
+let calArray = [];
+
+const input = document.getElementById('inputfield');
+const inputtwo = document.getElementById('inputfieldtwo');
+const inputthree = document.getElementById('inputfieldthree');
+
+let symbol
+let isEmpty = true;
+
+const zeroN = 0;
+const oneN = 1;
+const twoN = 2;
+const threeN = 3;
+const fourN = 4;
+const fiveN = 5;
+const sixN = 6;
+const sevenN = 7;
+const eightN = 8;
+const nineN = 9;
+
+
+let zerokey = document.getElementById('zero');
+const numberZero = zerokey = zeroN;
+
+let onekey = document.getElementById('one');
+const numberOne = onekey = oneN;
+
+let twokey = document.getElementById('two');
+const numberTwo = twokey = twoN;
+
+let threekey = document.getElementById('three');
+const numberThree = threekey = threeN;
+
+let fourkey = document.getElementById('four');
+const numberFour = fourkey = fourN;
+
+let fivekey = document.getElementById('five');
+const numberFive = fivekey = fiveN;
+
+let sixkey = document.getElementById('six');
+const numberSix = sixkey = sixN;
+
+let sevenkey = document.getElementById('seven');
+const numberSeven = sevenkey = sevenN;
+
+let eightkey = document.getElementById('eight');
+const numberEight = eightkey = eightN;
+
+let ninekey = document.getElementById('nine');
+const numberNine = ninekey = nineN;
+
+
+function buttonOne() {
+   calArray.push(onekey);
+}
+function buttonTwo() {
+   calArray.push(twokey);
+}
+
+
+//number 0 button
+function buttonzero() {
+   if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberZero}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberZero}`;
+}
+}
+  
+
+//number 1 button
+function buttonOne() {
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberOne}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberOne}`;
+}
+}
+
+//number 2 button
+function buttonTwo() {    
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberTwo}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberTwo}`;
+}
+}
+
+
+//number 3 button
+function buttonThree() {
+     if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberThree}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberThree}`;
+}
+}
+
+
+//number 4 button
+    function buttonFour() {
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberFour}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberFour}`;
+}
+}
+
+//number 5 button
+    function buttonFive() {
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberFive}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberFive}`;
+}
+}
+
+//number 6 button
+    function buttonSix() {
+     if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberSix}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberSix}`;
+}
+}
+
+//number 7 button
+    function buttonSeven() {
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberSeven}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberSeven}`;
+}
+}
+
+//number 8 button  
+function buttonEight() {
+     if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberEight}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberEight}`;
+}
+}
+
+//number 9 button
+
+function buttonNine() {
+    if (isEmpty === true) {
+    input.innerText = input.innerText + `${numberNine}`;
+    } else {
+    inputthree.innerText = inputthree.innerText + `${numberNine}`;
+}
+}
+
+
+// sum onclick function
+function sum(choice) {
+    if (choice === 'plus') {
+    const inputone = document.getElementById('inputfieldtwo').innerHTML;
+    calArray.push(inputone)
+    inputtwo.innerText = ` +`;
+    symbol = "add";
+    isEmpty = false;
+
+
+} else if(choice === 'minus') {
+    const inputone = document.getElementById('inputfieldtwo').innerHTML;
+    calArray.push(inputone)
+    inputtwo.innerText = ` -`;
+    symbol = "subtract";
+    isEmpty = false;
+} else if (choice === 'divide') {
+    const inputone = document.getElementById('inputfield').innerHTML;
+    calArray.push(inputone)
+    inputtwo.innerText = ` /`;
+    symbol = "divide";
+    isEmpty = false;
+} else if (choice === 'multiply') {
+    const inputone = document.getElementById('inputfield').innerHTML;
+    cal.push(inputone)
+    inputtwo.innerText = ` x`;
+    symbol = "multiply";
+    isEmpty = false;
+}
+}
+
+function equal() {
+    console.log('array',calArray);
+    console.log('Total added', calArray[0] + calArray[1]);
+      console.log('Total divided', calArray[0] / calArray[1]);
+      console.log('Total multiplied', calArray[0] * calArray[1]);
+      console.log('Total subtracted', calArray[0] - calArray[1]);
+    let total = calArray[0] + calArray[1]
+    //id name inputone?
+    inputfield.innerText = `Total: ${total}`;
+    calArray = [];
+    calArray.push(total);
+}
+ </script>
+
+        
+</body>
+</html>
