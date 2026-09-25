@@ -2,6 +2,8 @@
 
 calculator-js
 
+Built and designed a functional calculator using JavaScript
+
 Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 ---
