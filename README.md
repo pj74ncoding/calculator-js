@@ -28,7 +28,13 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 ### Motivation
 
-Why did you build this project?
+I wanted to build an application with all the elements that were in the JavaScript course.
+
+- A switch statement
+- if / else statements
+- Create elements to display in the DOM
+- Use a for loop
+- use the toggle() method to add and remove a classList
 
 ### Objective
 
