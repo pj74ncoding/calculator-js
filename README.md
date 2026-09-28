@@ -36,9 +36,7 @@ I wanted to build an application with all the elements that were in the JavaScri
 - Use a for loop
 - use the toggle() method to add and remove a classList
 
-### Objective
 
-What problem does this application solve?
 
 ### Learning Outcomes
 
