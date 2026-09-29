@@ -49,15 +49,10 @@ I wanted to build an application encompassing all the elements that were in the 
 ## Project Features
 
 - Functionality to carry out calculations
-
 - A display to show all the calculations in a particular sum
-
 - Functionality to change the colour theme
-
 - Functionality to change the font style
-
 - Functionality to display the date and time
-
 - Implemented CSS to add button and hover effects.
 
 ---
