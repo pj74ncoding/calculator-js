@@ -28,6 +28,8 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 ### Motivation
 
+- ITonlinelearning project
+
 I wanted to build an application with all the elements that were in the JavaScript course.
 
 - A switch statement
@@ -37,12 +39,12 @@ I wanted to build an application with all the elements that were in the JavaScri
 - use the toggle() method to add and remove a classList
 
 
-
 ### Learning Outcomes
 
-- I learnt that when the user inputs data it is a string and needs to be converted to a number to enable calculations.
-
-- I learnt how to use setTimeOut() to add and remove css classes. This enabled effects to the buttons when clicked on.
+- Learnt that when the user inputs data it is a string and needs to be converted to a number to enable calculations.
+- Learnt how to use setTimeOut() to add and remove css classes. This enabled effects to the buttons when clicked on.
+- Learnt how to use the console for debugging
+- Learnt about the typeof operator
 
 ## Project Features
 
@@ -96,9 +98,6 @@ client/
  style.css
  sum.js
  tree.txt
-
-
-
 
 ```
 
