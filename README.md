@@ -30,7 +30,7 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 - ITonlinelearning project
 
-I wanted to build an application with all the elements that were in the JavaScript course.
+I wanted to build an application encompassing all the elements that were in the JavaScript course.
 
 - A switch statement
 - if / else statements
