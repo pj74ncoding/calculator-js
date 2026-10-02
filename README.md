@@ -32,11 +32,13 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 I wanted to build an application encompassing all the elements that were in the JavaScript course.
 
+
+- Conditional statements
 - A switch statement
-- if / else statements
+- If / else statements
 - Create elements to display in the DOM
 - Use a for loop
-- use the toggle() method to add and remove a classList
+- Use the toggle() method to add and remove a classList
 
 
 ### Learning Outcomes
