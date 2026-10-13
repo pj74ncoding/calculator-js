@@ -62,9 +62,9 @@ I wanted to build an application encompassing all the elements that I learnt in 
 
 ### Frontend
 
-- JavaScript
 - HTML5
 - CSS3
+- JavaScript
 
 ### Tools
 
