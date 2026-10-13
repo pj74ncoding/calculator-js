@@ -43,7 +43,7 @@ I wanted to build an application encompassing all the elements that I learnt in 
 ### Learning Outcomes
 
 - Learnt that when the user inputs a number in HTML it is a string and needs to be converted to a number to enable calculations.
-- Learnt how to use setTimeout() to add and remove CSS classes to the buttons when clicked on. This enabled effects to the buttons when         clicked on.
+- Learnt how to use setTimeout() to add and remove CSS classes, this enabled effects to the buttons when clicked on.
 - Learnt how to use the console for debugging
 - Learnt about the typeof operator
 
