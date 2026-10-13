@@ -16,7 +16,6 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Project Features](#usage)
-- [Screenshots](#screenshots)
 - [Deployment](#deployment)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
@@ -28,9 +27,9 @@ Live Demo: https://calculator-js-sepia-eta.vercel.app/
 
 ### Motivation
 
-- ITonlinelearning project
+- ITonlinelearning course project
 
-I wanted to build an application encompassing all the elements that were in the JavaScript course.
+I wanted to build an application encompassing all the elements that I learnt in the JavaScript course.
 
 
 - Conditional statements
@@ -43,8 +42,8 @@ I wanted to build an application encompassing all the elements that were in the 
 
 ### Learning Outcomes
 
-- Learnt that when the user inputs data it is a string and needs to be converted to a number to enable calculations.
-- Learnt how to use setTimeOut() to add and remove css classes. This enabled effects to the buttons when clicked on.
+- Learnt that when the user inputs a number in HTML it is a string and needs to be converted to a number to enable calculations.
+- Learnt how to use setTimeout() to add and remove CSS classes to the buttons when clicked on. This enabled effects to the buttons when         clicked on.
 - Learnt how to use the console for debugging
 - Learnt about the typeof operator
 
@@ -114,54 +113,15 @@ cd calculator-js
 Frontend:
 
 ```bash
-cd calculator-js
 npm install
 ```
 
-### Run Development Servers
+### Run Application
 
 Frontend:
 
 ```bash
 npm start
-```
-
-## Screenshots
-
-```
-+---public
-|   \---images
-|           accessories.jpg
-|           belt.jpg
-|           colouredcottonspiral.jpg
-|           cottoncolours.jpg
-|           jumper-one-SilverFox74.jpg
-|           lounge.jpg
-|           men.jpg
-|           mens-bottoms.jpg
-|           mens-coat.jpg
-|           mens-polo-one.jpg
-|           mens-polo-two.jpg
-|           mens-shirt.jpg
-|           rustic.jpg
-|           shirt.png
-|           top.jpg
-|           tshirt.jpg
-|           women-jumper-one.jpg
-|           women.jpg
-|           womens-coat.jpg
-|           womens-jumper-three.jpg
-|           womens-jumper-two.jpg
-|           womens-polo-one.jpg
-|
-
-```
-
-Add inside README:
-
-```markdown
-![Home Page](assets/home.png)
-![Dashboard](assets/dashboard.png)
 ```
 
 ---
